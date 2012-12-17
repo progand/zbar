@@ -12,7 +12,6 @@ class BaseCommand implements FrontCommand {
     }
 
     public function process() {
-        $class = get_class();
         if ($_REQUEST["action"]) {
             $action = $_REQUEST["action"];
         } else {

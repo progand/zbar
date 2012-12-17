@@ -95,7 +95,6 @@ Website: www.buildinternet.com/project/supersized
 	}
 	#supersized{
 	    position:fixed;
-            /*text-align:  center;*/
 	}
 	#supersized img{ -ms-interpolation-mode: bicubic; }
 	#supersized img, #supersized a{

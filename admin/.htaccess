@@ -1,0 +1,9 @@
+AddDefaultCharset CP-1251
+DirectoryIndex index.php
+AuthName "authorize"
+AuthType Basic
+AuthUserFile Z:/home/zbar.com/www/admin/.htpasswd
+require valid-user
+<Files .htpasswd> 
+   deny from all 
+</Files>

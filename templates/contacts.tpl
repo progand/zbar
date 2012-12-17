@@ -16,11 +16,11 @@
 <table align="center" class="info">
     <tr>
         <td class="title">Телефон</td>
-        <td>------------</td>
+        <td>+380956280991; +380675999892</td>
     </tr>
     <tr>
         <td class="title">E-mail</td>
-        <td>------------</td>
+        <td>zbaranatol@gmail.com</td>
     </tr>
     <tr>
         <td class="title">Сайт</td>

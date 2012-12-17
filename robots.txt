@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /cgi-bin
+Disallow: /forum
+Disallow: /phorum
+Disallow: /phpbb
+Disallow: /phpBB
+Sitemap: http://zbar.ho.ua/sitemap.xml
