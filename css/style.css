@@ -148,6 +148,14 @@ td.content{
     padding-bottom: 10px;
 }
 
+#footer_contacts{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid white;
+    font-weight: bold;
+}
+
 /*Gallery*/
 .awesome {
     width: 120px;
@@ -248,6 +256,11 @@ table.gallery a.galleryimage{
     -webkit-box-shadow:0px 0px 30px gray; /*Äëÿ Safari*/
     -moz-box-shadow:0px 0px 30px gray; /*Äëÿ Mozilla*/
     opacity: 1;
+}
+
+a.article_link{
+    color: #DADADA;
+    text-decoration: none;
 }
 
 /*Image*/
