@@ -16,6 +16,7 @@
 <ul>
     <li><a href="/art20.html" class="article_link">Українське образотворче мистецтво на початку ХХ ст.</a></li>
     <li><a href="/technique_acrylic_painting.html" class="article_link">Техніка акрилового живопису</a></li>
+    <li><a href="/oil_painting.html" class="article_link">Олійний живопис</a></li>
 </ul>
  {include file="footer.tpl"}
 </html>
