@@ -4,10 +4,10 @@
         <title>Статті про образотворче мистецтво</title>
         <META NAME="description" 
               http-equiv="description" 
-              content="Українське образотворче мистецтво на початку ХХ ст.">
+              content="Статті про образотворче мистецтво">
 
         <META NAME="keywords" HTTP-EQUIV="keywords"
-              CONTENT="образотворче мистецтво; ХХ ст; мистецтво; Українське">
+              CONTENT="образотворче мистецтво; Статті; мистецтво; Українське">
 
         {include file="commonHead.tpl"}
     </head>
@@ -17,6 +17,7 @@
     <li><a href="/art20.html" class="article_link">Українське образотворче мистецтво на початку ХХ ст.</a></li>
     <li><a href="/technique_acrylic_painting.html" class="article_link">Техніка акрилового живопису</a></li>
     <li><a href="/oil_painting.html" class="article_link">Олійний живопис</a></li>
+    <li><a href="/aivazovsky.html" class="article_link">Айвазовський Іван Костянтинович - біографія</a></li>
 </ul>
  {include file="footer.tpl"}
 </html>

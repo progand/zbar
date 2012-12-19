@@ -30,6 +30,7 @@
                             <a href="/reports.html">Відгуки</a>
                             <a href="/contacts.html">Контакти</a>
                             <a href="/articles.html">Статті</a>
+                            <a href="/video.html">Відео</a>
                         </div>
                     </li>
                     <li>
