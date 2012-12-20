@@ -1,5 +1,4 @@
-<body background="/images/bg.png" topmargin="0" bottommargin="0" marginheight="">
-    
+<body background="/images/bg.png" topmargin="0" bottommargin="0" marginheight="">   
     <div id="page">
                 
     <table width="100%" height="100%" cellpadding="20">
@@ -7,11 +6,11 @@
             <td width="*" class="menu">
                 
             </td>
-            <td width="800px"  background="/images/bg-l.png" height="100px" class="content">
+            <td width="800px" height="100px" class="content">
                 
                              
                 <div class="logo">
-                <img class="logo" src="/images/logo.png" width="800px" />
+                    <span class="top_title">јнатол≥й «баранський</span>
                 </div>
 
                
