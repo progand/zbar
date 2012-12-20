@@ -16,8 +16,7 @@
         <script type="text/javascript" src="/js/gallery.js"></script>             
 	
     </head>
-    {include file="header.tpl"}
-    <a href="/slideshow/{$gallery.id}.html" class="awesome">Ñëàéäøîó >></a>
+    {include file="header.tpl"}   
     <h1>{$gallery.name}</h1>
     <table cellspacing=20 align=center class="gallery"><tr>
             {foreach from=$images key="key" item="image"}

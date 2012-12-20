@@ -1,4 +1,4 @@
-<body background="/images/bg.png" topmargin="0" bottommargin="0" marginheight="">   
+<body background="/images/bg.jpg" topmargin="0" bottommargin="0" marginheight="">   
     <div id="page">
                 
     <table width="100%" height="100%" cellpadding="20">
