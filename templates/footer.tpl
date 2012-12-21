@@ -49,6 +49,10 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Ме
 </table>
 </div>
 
-
+<div class="soc_buttons" id="soc_buttons" style="position: absolute; top: 110px; left: 0px;display: none;">
+    <a title="Следите за мной на twitter" target="_blank" href="http://twitter.com/ivanshamshur"><img src="/images/lightbox-btn-close.png" ></a>
+    <a title="Следите за мной на facebook" target="_blank" href="http://www.facebook.com/ivan.shamshur"><img src="/images/back_arrow.gif"></a>
+    <a title="Следите за мной по RSS" target="_blank" href="http://feeds.feedburner.com/biznesguide"><img src="/images/lightbox-btn-prev.png"></a>  
+</div>
 </body>
 

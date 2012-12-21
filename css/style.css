@@ -43,7 +43,7 @@ ul.sdt_menu li a img{
     z-index:100;
     -moz-box-shadow:0px 0px 4px #000;
     -webkit-box-shadow:0px 0px 4px #000;
-    box-shadow:0px 0px 4px #000;
+    box-shadow:0px 0px 4px #000;    
 }
 ul.sdt_menu li span.sdt_wrap{
     position:absolute;
@@ -51,7 +51,7 @@ ul.sdt_menu li span.sdt_wrap{
     left:0px;
     width:170px;
     height:60px;
-    z-index:15;
+    z-index:14;
 }
 ul.sdt_menu li span.sdt_active{
     position:absolute;
@@ -64,6 +64,7 @@ ul.sdt_menu li span.sdt_active{
     -moz-box-shadow:0px 0px 4px #000 inset;
     -webkit-box-shadow:0px 0px 4px #000 inset;
     box-shadow:0px 0px 4px #000 inset;
+    opacity: 0.9;
 }
 ul.sdt_menu li span span.sdt_link,
 ul.sdt_menu li span span.sdt_descr,
@@ -96,6 +97,8 @@ ul.sdt_menu li div.sdt_box{
     left:0px;
     display:none;
     background:#580400;
+    z-index: 17;
+    opacity: 0.9;
 }
 ul.sdt_menu li div.sdt_box a{
     float:left;
@@ -327,4 +330,17 @@ div.video{
 div.video iframe{
     margin-bottom: 15px;
     box-shadow: 0px 0px 10px #3388bd;
+}
+
+/*Socializer*/
+.soc_buttons {
+    position: absolute;
+    left: 0;
+    top: 152px;
+    width: 70px;
+}
+
+.soc_buttons a {
+    display: block;
+    position: relative;
 }

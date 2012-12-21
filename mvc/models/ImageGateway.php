@@ -30,7 +30,7 @@ class ImageGateway extends Gateway{
     }
     
     public function findByGallery($gallery_id){
-        $query_result = $this->query('select * from images where gallery='.$gallery_id);       
+        $query_result = $this->query("select * from images where gallery={$gallery_id} order by year desc");       
         return $this->getMatrix($query_result);
     }
     
