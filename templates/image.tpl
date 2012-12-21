@@ -14,8 +14,11 @@
         <script type="text/javascript" src="/js/disquss.js"></script>
     </head>
     {include file="header.tpl"}
-    <a href="/gallery/{$gallery.id}.html" class="backlink"><--Повернутися до галереї "{$gallery.name}"</a>
-    <h1>Картина {$image.name}</h1>
+    <a href="/gallery/{$gallery.id}.html" class="backlink">
+        <img src="/images/back_arrow.gif" title="Повернутися" alt="Повернутися"/>
+        Галерея "{$gallery.name}"
+    </a>
+    <h1>{$image.name}</h1>
     <table>
         <tr>
             <td class="mainimage">
@@ -25,9 +28,9 @@
                 <div>З галереї:</div>                
                 <div class="othergalleryimages">
                     
-                {foreach from=$otherGalleryImages key="key" item="image"}           
-                <a href="/image/{$image.id}.html" class="galleryimage" title="{$image.name}">
-                    <div><img src="{$image.smallFile}" alt=" {$image.name}" class="smallimage"/>  </div>
+                {foreach from=$otherGalleryImages key="key" item="otherimage"}           
+                <a href="/image/{$otherimage.id}.html" class="galleryimage" title="{$otherimage.name}">
+                    <div><img src="{$otherimage.smallFile}" alt=" {$otherimage.name}" class="smallimage"/>  </div>
                 </a>                  
                 {/foreach}
                 </div>

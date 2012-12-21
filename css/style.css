@@ -238,9 +238,17 @@ a.article_link{
 }
 
 /*Image*/
+
 a.backlink{
-    color:  #00558a;
+    color: #8A3600;
+    text-shadow: 1px 1px 2px #BC6832;
+    font-size: 16pt;
     text-decoration: none;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+a.backlink img{
+    vertical-align: middle;
 }
 
 td.mainimage{    

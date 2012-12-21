@@ -26,6 +26,7 @@
                         </a>
                         <div class="sdt_box">
                             <a href="/">Головна</a>
+                            <a href="/abouts.html">Про художника</a>
                             <a href="/reports.html">Відгуки</a>
                             <a href="/contacts.html">Контакти</a>
                             <a href="/articles.html">Статті</a>

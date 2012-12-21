@@ -14,7 +14,7 @@
         <script type="text/javascript" src="/js/disquss.js"></script>
     </head>
     {include file="header.tpl"}   
-    <h1>Ваші відгуки</h1>
+    <h1>Ваші відгуки</h1>    
 <div class="comments">
     <div id="disqus_thread"></div>
     <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
