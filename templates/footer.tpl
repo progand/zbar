@@ -55,6 +55,7 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Ме
     <a title=Статті" href="/articles.html"><img src="/images/articles_link.png" ></a>
     <a title="Відео" href="/video.html"><img src="/images/video_link.png" ></a>
     <a title="Вверх" href="#"><img src="/images/up_link.png" ></a>
+    <a title="Сховати" href="#" id="close_soc_buttons"><img src="/images/close_link.png" ></a>
 </div>
 </body>
 
