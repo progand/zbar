@@ -335,7 +335,7 @@ div.video iframe{
 /*Socializer*/
 .soc_buttons {
     position: absolute;
-    left: 0;
+    right: 0;
     top: 152px;
     width: 70px;
 }

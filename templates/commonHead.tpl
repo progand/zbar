@@ -9,7 +9,7 @@
 <script type="text/javascript" src="/js/funmenu.js"></script>
 <script type="text/javascript" src="/js/ga.js"></script>
 
-<!--<script type="text/javascript" src="/js/jquery.socializer.min.js"></script>-->
-<!--<script type="text/javascript" src="/js/common.js"></script>-->
+<script type="text/javascript" src="/js/jquery.socializer.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
 
 

@@ -24,8 +24,7 @@
                                 <span class="sdt_descr">Основні сторінки</span>
                             </span>
                         </a>
-                        <div class="sdt_box">
-                            <a href="/">Головна</a>
+                        <div class="sdt_box">                           
                             <a href="/abouts.html">Про художника</a>
                             <a href="/reports.html">Відгуки</a>
                             <a href="/contacts.html">Контакти</a>

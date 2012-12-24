@@ -49,10 +49,12 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Ме
 </table>
 </div>
 
-<div class="soc_buttons" id="soc_buttons" style="position: absolute; top: 110px; left: 0px;display: none;">
-    <a title="Следите за мной на twitter" target="_blank" href="http://twitter.com/ivanshamshur"><img src="/images/lightbox-btn-close.png" ></a>
-    <a title="Следите за мной на facebook" target="_blank" href="http://www.facebook.com/ivan.shamshur"><img src="/images/back_arrow.gif"></a>
-    <a title="Следите за мной по RSS" target="_blank" href="http://feeds.feedburner.com/biznesguide"><img src="/images/lightbox-btn-prev.png"></a>  
+<div class="soc_buttons" id="soc_buttons" >
+    <a title="Відгуки" href="/reports.html"><img src="/images/reports_link.png" ></a>
+    <a title="Контактна інформація" href="/contacts.html"><img src="/images/contacts_link.png" ></a>
+    <a title=Статті" href="/articles.html"><img src="/images/articles_link.png" ></a>
+    <a title="Відео" href="/video.html"><img src="/images/video_link.png" ></a>
+    <a title="Вверх" href="#"><img src="/images/up_link.png" ></a>
 </div>
 </body>
 

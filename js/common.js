@@ -1,14 +1,14 @@
 $(document).ready(function(){
-    initSocializer()
+    initSocializer();
 });
 
 function initSocializer(){    
     $('#soc_buttons').socializer({
-        position: 'left',
+        position: 'right',
         type: 'sliding',
-        inittop: 20,
+        inittop: 100,
         scrolltop: 10,
-        opacity: 0.1
+        opacity: 0.5
     });
 }
 
