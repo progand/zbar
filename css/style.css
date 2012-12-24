@@ -343,4 +343,9 @@ div.video iframe{
 .soc_buttons a {
     display: block;
     position: relative;
+    opacity: 0.5;
+}
+
+.soc_buttons a:hover{
+    opacity: 1;
 }
