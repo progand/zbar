@@ -4,10 +4,10 @@
         <title>Картина {$image.name} - художник Анатолій Збаранський</title>
         <META NAME="description" 
               http-equiv="description" 
-              content="Картина {$image.name} художника Анатолія Збаранського. Замовити {$image.name}. Купити {$image.name}. Переглянути {$image.name}. Завантажити {$image.name}. Галерея {$image.name}. {$image.name} художника з Диканьки.">
+              content="Картина {$image.name} художника Анатолія Збаранського. Збаранський Анатолій Іванович. Замовити {$image.name}. Купити {$image.name}. Переглянути {$image.name}. Завантажити {$image.name}. Галерея {$image.name}. {$image.name} художника з Диканьки.">
 
         <META NAME="keywords" HTTP-EQUIV="keywords"
-              CONTENT="картина {$image.name};купити {$image.name};галерея {$image.name};замовити {$image.name};">
+              CONTENT="Збаранський Анатолій Іванович; картина {$image.name};купити {$image.name};галерея {$image.name};замовити {$image.name};">
 
         {include file="commonHead.tpl"}          
         <script type="text/javascript" src="/js/esc.js"></script>
