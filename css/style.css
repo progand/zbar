@@ -229,9 +229,9 @@ table.gallery a.galleryimage{
     -webkit-transform:scale(1.1); /*Webkit: Масштабирование изображения 1.1x от торигинального размера*/
     -moz-transform:scale(1.1); /*Для Mozilla*/
     -o-transform:scale(1.1); /*Для Opera*/
-    box-shadow:0px 0px 30px #3388bd; /*CSS3 тень в 30px вокруг изображения */
-    -webkit-box-shadow:0px 0px 30px #3388bd; /*Для Safari*/
-    -moz-box-shadow:0px 0px 30px #3388bd; /*Для Mozilla*/
+    box-shadow:0px 0px 30px gold; /*CSS3 тень в 30px вокруг изображения */
+    -webkit-box-shadow:0px 0px 30px gold; /*Для Safari*/
+    -moz-box-shadow:0px 0px 30px gold; /*Для Mozilla*/
     opacity: 1;
 }
 
