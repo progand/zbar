@@ -6,7 +6,7 @@ App = Ember.Application.create({
     }
 });
 App.SearchTextField = Em.TextField.extend({
-    insertNewline: function(){
-         //App.tweetsController.loadTweets();
-    }
+insertNewline: function(){
+//App.tweetsController.loadTweets();
+}
 });
