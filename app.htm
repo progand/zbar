@@ -7,18 +7,28 @@ and open the template in the editor.
     <head>
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <link rel="stylesheet"  type="text/css" media="screen" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css"/> 
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script> 
+        <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
         <script src="http://cloud.github.com/downloads/emberjs/ember.js/ember-0.9.6.min.js"></script>
         <script src="js/app.js"></script>
     </head>
     <body>
-        <script type="text/x-handlebars"> 
-            Hello <b>{{App.mixmaster}}</b> 
-            <br>
-            {{view App.SearchTextField placeholder="Twitter username" valueBinding="App.mixmaster"}}
-            <br>
-            {{view App.SearchTextField placeholder="Twitter username" valueBinding="App.mixmaster"}}
+        <script type="text/x-handlebars">    
+            <div>
+            {{view App.SearchTextField placeholder="Input text for search" valueBinding="App.itemsController.searchitem"}}
+            <button {{action "loadItems" target="App.itemsController"}}>Go!</button>
+            </div>
+            <div>
+            {{#if App.itemsController.searchitem}}
+            <h3>Results:</h3>
+            <ul>
+            {{#each App.itemsController}}
+            <li><a {{bindAttr href="url"}} target="_blank">{{name}}</a></li>
+            {{/each}}
+            </ul>
+            {{/if}}
+            </div>
         </script>
-        xfbfxcb
     </body>
 </html>
