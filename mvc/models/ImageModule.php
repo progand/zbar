@@ -93,6 +93,9 @@ class ImageModule {
     public function getImage($image_id) {
         $imageGateway = new ImageGateway();
         $image = $imageGateway->find($image_id);
+        if(!$image){
+            return null;
+        }
         $galleryGateway = new GalleryGateway();
         $gallery = $galleryGateway->find($image["gallery"]);
 
