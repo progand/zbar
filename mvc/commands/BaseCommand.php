@@ -24,7 +24,21 @@ class BaseCommand implements FrontCommand {
         } else {
             $action = "index";
         }
-        $this->smarty->display("$action.tpl");
+        $this->smarty->display("{$action}.tpl");
+    }
+    
+    protected function index(){
+         header('Location: http://zbar.ho.ua/');
+    }
+    
+    protected function error404(){
+          $this->smarty->display("404.tpl");
+    }
+    
+    protected function checkNumberParameter($param){
+        if(!is_numeric($param)){
+            $this->index();            
+        }
     }
 
 }
