@@ -1,12 +1,7 @@
 <body background="/images/bg.jpg" topmargin="0" bottommargin="0" marginheight="">   
     <div id="page">
-                
-    <table width="100%" height="100%" cellpadding="20">
-        <tr height="100%" >
-            <td width="*" class="menu">
-                
-            </td>
-            <td width="800px" height="100px" class="content">
+    
+            <div class="content">
                 
                              
                 <div class="logo">

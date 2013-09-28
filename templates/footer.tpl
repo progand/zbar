@@ -7,10 +7,6 @@
 <div id="counters">
     
 </div>
-</td>
-<td width="*">&nbsp;</td>
-</tr>
-</table>
 </div>
 
 <div class="soc_buttons" id="soc_buttons" >
