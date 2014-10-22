@@ -17,5 +17,7 @@
     <a title="¬верх" href="#"><img src="/images/up_link.png" ></a>
     <a title="—ховати" href="#" id="close_soc_buttons"><img src="/images/close_link.png" ></a>
 </div>
+
+{include file="commonScripts.tpl"}
 </body>
 

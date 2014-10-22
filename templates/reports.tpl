@@ -10,8 +10,7 @@
               CONTENT="відгуки про картини;Збаранський Анатолій Іванович;відгуки про художника;відгуки про сайт художника;коментарі;оцінка">
 
         {include file="commonHead.tpl"}          
-        <script type="text/javascript" src="/js/esc.js"></script>
-        <script type="text/javascript" src="/js/disquss.js"></script>
+        
     </head>
     {include file="header.tpl"}   
     <h1>Ваші відгуки</h1>    
@@ -20,4 +19,6 @@
     <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
     {include file="footer.tpl"}
+    <script type="text/javascript" src="/js/esc.js"></script>
+    <script type="text/javascript" src="/js/disquss.js"></script>
 </html>

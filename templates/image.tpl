@@ -10,8 +10,7 @@
               CONTENT="Збаранський Анатолій Іванович; картина {$image.name};купити {$image.name};галерея {$image.name};замовити {$image.name};">
 
         {include file="commonHead.tpl"}          
-        <script type="text/javascript" src="/js/esc.js"></script>
-        <script type="text/javascript" src="/js/disquss.js"></script>
+        
     </head>
     {include file="header.tpl"}
     <a href="/gallery/{$gallery.id}.html" class="backlink">
@@ -101,4 +100,6 @@
 </div>
 
     {include file="footer.tpl"}
+    <script type="text/javascript" src="/js/esc.js"></script>
+    <script type="text/javascript" src="/js/disquss.js"></script>
 </html>

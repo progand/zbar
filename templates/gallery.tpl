@@ -12,8 +12,7 @@
         {include file="commonHead.tpl"}
         <link href="/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" /> 
         
-        <script type="text/javascript" src="/js/jquery.lightbox-0.5.js"></script> 
-        <script type="text/javascript" src="/js/gallery.js"></script>             
+          
 	
     </head>
     {include file="header.tpl"}   
@@ -37,4 +36,6 @@
 
 
     {include file="footer.tpl"}
+    <script type="text/javascript" src="/js/jquery.lightbox-0.5.js"></script> 
+    <script type="text/javascript" src="/js/gallery.js"></script>           
 </html>
