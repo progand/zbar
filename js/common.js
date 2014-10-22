@@ -14,27 +14,27 @@ SocButtons.initSocializer = function(){
         opacity: 0.5
     });
     $("#close_soc_buttons").click(this.hideSocializer);
-}
+};
 
 SocButtons.hideSocializer = function (){
     $('#soc_buttons').fadeOut();
     SocButtons.setHidden(true);
     return false;
-}
+};
 
 SocButtons.isStatusHidden = function (){
     return localStorage.getItem('socializer_hidden')=="true";
-}
+};
 
 SocButtons.setHidden = function (bool){
     localStorage.setItem('socializer_hidden', bool);
-}
+};
 
 SocButtons.initHidden = function (){
     if(!localStorage.getItem('socializer_hidden')){
         localStorage.setItem('socializer_hidden', false);
     }    
-}
+};
 
 SocButtons.update = function (){
     if(this.isStatusHidden()){
@@ -42,6 +42,6 @@ SocButtons.update = function (){
     }else{
         $('#soc_buttons').show();
     }
-}
+};
 
 
