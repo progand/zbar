@@ -36,6 +36,6 @@
 
 
     {include file="footer.tpl"}
-    <script type="text/javascript" src="/js/jquery.lightbox-0.5.js"></script> 
+    <script type="text/javascript" src="/js/jquery.lightbox-0.5.min.js"></script> 
     <script type="text/javascript" src="/js/gallery.js"></script>           
 </html>
