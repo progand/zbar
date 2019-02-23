@@ -1,4 +1,4 @@
-<script src="//yastatic.net/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>');</script>
 <!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>-->
 
@@ -18,7 +18,7 @@
             ga('require', 'displayfeatures');
             ga('send', 'pageview');
     </script>
-    
+
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
 (function (d, w, c) {
