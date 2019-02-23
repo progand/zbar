@@ -1,6 +1,5 @@
 <?php
 
-header('Content-Type: text/html; charset=cp-1251');
 require_once $_SERVER['DOCUMENT_ROOT'] . '/mvc/commands/GalleryCommand.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/mvc/commands/ImageCommand.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/mvc/commands/SlideShowCommand.php';
@@ -19,13 +18,13 @@ class FrontController {
                     break;
                 case "image":
                     $command = new ImageCommand();
-                    break;                
+                    break;
                 case "slideshow":
                     $command = new SlideShowCommand();
-                    break;    
+                    break;
                 case "api":
                     $command = new APICommand();
-                    break;     
+                    break;
                 default:
                     $command = new BaseCommand();
                     break;

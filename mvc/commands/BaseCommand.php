@@ -1,14 +1,10 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/mvc/MySmarty.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/mvc/commands/FrontCommand.php';
 
 class BaseCommand implements FrontCommand {
 
-    public $smarty;
-
     public function __construct() {
-        $this->smarty = new MySmarty();
     }
 
     private $actions = array(
@@ -24,20 +20,25 @@ class BaseCommand implements FrontCommand {
         } else {
             $action = "index";
         }
-        $this->smarty->display("{$action}.tpl");
+        $this->display($action);
+        //$this->smarty->display("{$action}.tpl");
     }
-    
+
+    protected function display($action){
+      include_once $_SERVER['DOCUMENT_ROOT'] . "/mvc/views/{$action}.php";
+    }
+
     protected function index(){
          header('Location: http://zbar.ho.ua/');
     }
-    
+
     protected function error404(){
-          $this->smarty->display("404.tpl");
+          $this->display("404");
     }
-    
+
     protected function checkNumberParameter($param){
         if(!is_numeric($param)){
-            $this->index();            
+            $this->index();
         }
     }
 

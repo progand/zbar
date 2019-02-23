@@ -3,24 +3,24 @@
 
     <head profile="http://gmpg.org/xfn/11">
 
-        <title>Слайдшоу <?php echo $gallery["name"] ?> - Художник Анатолій Збаранський</title>
+        <title>РЎР»Р°Р№РґС€РѕСѓ <?php echo $gallery["name"] ?> - РҐСѓРґРѕР¶РЅРёРє РђРЅР°С‚РѕР»С–Р№ Р—Р±Р°СЂР°РЅСЃСЊРєРёР№</title>
         <meta http-equiv="content-type" content="text/html; charset=windows-1251" />
-        <META NAME="description" 
-              http-equiv="description" 
-              content="Слайдшоу <?php echo $gallery["name"] ?> художника Анатолія Збаранського. Замовити <?php echo $gallery["name"] ?>. Купити <?php echo $gallery["name"] ?>. Переглянути слайдшоу <?php echo $gallery["name"] ?>. Завантажити <?php echo $gallery["name"] ?>. Галерея <?php echo $gallery["name"] ?>. Слайдшоу <?php echo $gallery["name"] ?> художника з Диканьки.">
+        <META NAME="description"
+              http-equiv="description"
+              content="РЎР»Р°Р№РґС€РѕСѓ <?php echo $gallery["name"] ?> С…СѓРґРѕР¶РЅРёРєР° РђРЅР°С‚РѕР»С–СЏ Р—Р±Р°СЂР°РЅСЃСЊРєРѕРіРѕ. Р—Р°РјРѕРІРёС‚Рё <?php echo $gallery["name"] ?>. РљСѓРїРёС‚Рё <?php echo $gallery["name"] ?>. РџРµСЂРµРіР»СЏРЅСѓС‚Рё СЃР»Р°Р№РґС€РѕСѓ <?php echo $gallery["name"] ?>. Р—Р°РІР°РЅС‚Р°Р¶РёС‚Рё <?php echo $gallery["name"] ?>. Р“Р°Р»РµСЂРµСЏ <?php echo $gallery["name"] ?>. РЎР»Р°Р№РґС€РѕСѓ <?php echo $gallery["name"] ?> С…СѓРґРѕР¶РЅРёРєР° Р· Р”РёРєР°РЅСЊРєРё.">
 
         <META NAME="keywords" HTTP-EQUIV="keywords"
-              CONTENT="слайдшоу  <?php echo $gallery["name"] ?>;замовити <?php echo $gallery["name"] ?>;купити <?php echo $gallery["name"] ?>;галерея <?php echo $gallery["name"] ?>;">
+              CONTENT="СЃР»Р°Р№РґС€РѕСѓ  <?php echo $gallery["name"] ?>;Р·Р°РјРѕРІРёС‚Рё <?php echo $gallery["name"] ?>;РєСѓРїРёС‚Рё <?php echo $gallery["name"] ?>;РіР°Р»РµСЂРµСЏ <?php echo $gallery["name"] ?>;">
         <link rel="stylesheet" href="/css/supersized.css" type="text/css" media="screen" />
         <script type="text/javascript" src="/js/jquery.js"></script>
         <script src="/js/effects.core.js"></script>
         <script src="/js/effects.slide.js"></script>
         <script type="text/javascript" src="/js/esc.js"></script>
         <script type="text/javascript" src="/js/supersized.3.0.js"></script>
-        <script type="text/javascript">  
+        <script type="text/javascript">
             $(function(){
-                $.fn.supersized.options = {  
-                    startwidth: 640,  
+                $.fn.supersized.options = {
+                    startwidth: 640,
                     startheight: 480,
                     vertical_center: 1,
 					horizontal_center: 1,
@@ -41,10 +41,10 @@ foreach ($images as $key => $image) {
     $image_name = $image['name'];
     echo "{image : '$image_url', title : '$image_name'},";
 }
-?>               
+?>
             ]
         };
-        $('#supersized').supersized(); 
+        $('#supersized').supersized();
     });
         </script>
 
@@ -80,7 +80,7 @@ foreach ($images as $key => $image) {
                     <img id="prevslide" src="/images/back_dull.png"/><img id="pauseplay" src="/images/pause_dull.png"/><img id="nextslide" src="/images/forward_dull.png"/>
                 </div>
 
-                <a href="/gallery/<?php echo $gallery["id"] ?>.html" class="stamp">ВИХІД (ESC)</a>
+                <a href="/gallery/<?php echo $gallery["id"] ?>.html" class="stamp">Р’РРҐР†Р” (ESC)</a>
 
             </div>
         </div>
