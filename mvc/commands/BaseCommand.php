@@ -21,7 +21,6 @@ class BaseCommand implements FrontCommand {
             $action = "index";
         }
         $this->display($action);
-        //$this->smarty->display("{$action}.tpl");
     }
 
     protected function display($action){
