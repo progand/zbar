@@ -3,7 +3,6 @@
 require_once $_SERVER['DOCUMENT_ROOT'] . '/mvc/commands/GalleryCommand.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/mvc/commands/ImageCommand.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/mvc/commands/SlideShowCommand.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/mvc/commands/APICommand.php';
 
 class FrontController {
 
@@ -21,10 +20,7 @@ class FrontController {
                     break;
                 case "slideshow":
                     $command = new SlideShowCommand();
-                    break;
-                case "api":
-                    $command = new APICommand();
-                    break;
+                    break;                
                 default:
                     $command = new BaseCommand();
                     break;
