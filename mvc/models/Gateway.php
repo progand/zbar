@@ -13,40 +13,36 @@
 require_once $_SERVER['DOCUMENT_ROOT'] . '/config/config.php';
 
 abstract class Gateway {
+    private $data;
 
-    protected function query($query) {
-        $connection = mysql_connect(DB_HOST, DB_USER, DB_PASS);
-        mysql_query('set character set cp1251');
-        mysql_select_db(DB_DATABASE, $connection);
-        $sql_query = mysql_query($query);
-        mysql_close($connection);
-        return $sql_query;
+    public function __construct() {
+      $galleriesEncoded = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/db/galleries.json");
+      $this->$data['galleries'] = json_decode($galleriesEncoded, true);
+      $imagesEncoded = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/db/images.json");
+      $this->$data['images'] = json_decode($imagesEncoded, true);
+
     }
 
-    protected function getSingle($query_result) {
-        $single = mysql_fetch_array($query_result, MYSQL_ASSOC);
-        mysql_free_result($query_result);
-        return $single;
+    protected function getCollection($type){
+      if(!$type){
+        return null;
+      }
+      return $this->$data[$type];
     }
 
-    protected function getVector($query_result) {
-        $vector = array();
-        while ($row = mysql_fetch_array($query_result, MYSQL_NUM)) {
-            $vector[] = $row[0];
-        }
-        mysql_free_result($query_result);
-        return $vector;
-    }
-    
-    protected function getMatrix($query_result) {
-        $vector = array();
-        while ($row = mysql_fetch_array($query_result, MYSQL_ASSOC)) {
-            $vector[] = $row;
-        }
-        mysql_free_result($query_result);
-        return $vector;
+    protected function getByKey($key, $value, $type){
+      $collection = $this->getCollection($type);
+      if(!$collection){
+        return null;
+      }
+      $index = array_search($value, array_column($collection, $key));
+      return $collection[$index];
     }
 
+    protected function getIDs($type){
+      $collection = $this->getCollection($type);
+      return array_keys($collection);
+    }
 }
 
 ?>

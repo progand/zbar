@@ -13,37 +13,37 @@
 require_once $_SERVER['DOCUMENT_ROOT'].'/mvc/models/Gateway.php';
 
 class ImageGateway extends Gateway{
-    
+
     public function find($id){
-        $query_result = $this->query("select * from images where id={$id}");       
-        return $this->getSingle($query_result);
+        return $this->getByKey('id', $id, 'images');
     }
-    
+
     public function findByName($name){
         $n = trim($name);
-        $query_result = $this->query("select * from images where  name='{$n}'");          
-        return $this->getSingle($query_result);
+        return $this->getByKey('name', $n, 'images');
     }
-    
+
     public function findBySEOName($seoname){
         $sn = trim($seoname);
-        $query_result = $this->query("select * from images where seoname='{$sn}'");       
-        return $this->getSingle($query_result);
+        return $this->getByKey('seoname', $sn, 'images');
     }
-    
+
     public function findByGallery($gallery_id){
-        $query_result = $this->query("select * from images where gallery={$gallery_id} order by year desc");       
-        return $this->getMatrix($query_result);
+      $images = array();
+      foreach($this->getAll() as $image){
+        if ($image['gallery'] == $gallery_id){
+            $images[] = $image; 
+        }
+      }
+      return $images;
     }
-    
+
     public function getIDs() {
-        $query_result = $this->query('select id from images');       
-        return $this->getVector($query_result);
+        return $this->getIDs('images');
     }
-    
+
     public function getAll() {
-        $query_result = $this->query('select * from images');       
-        return $this->getMatrix($query_result);
+        return $this->getCollection('images');
     }
 }
 

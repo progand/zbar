@@ -18,11 +18,7 @@ class ImageCommand extends BaseCommand {
             $gallery = $galleryGateway->find($image["gallery"]);
             $otherGalleryImages = $imageModule->getRandomImagesInGallery($gallery["id"], 4);
             $otherImages = $imageModule->getRandomImages(5);
-            $this->smarty->assign("gallery", $gallery);
-            $this->smarty->assign("image", $image);
-            $this->smarty->assign("otherGalleryImages", $otherGalleryImages);
-            $this->smarty->assign("otherImages", $otherImages);
-            $this->smarty->display("image.tpl");
+            include_once $_SERVER['DOCUMENT_ROOT'] . "/mvc/views/image.php";
         } else {
             $this->error404();
         }

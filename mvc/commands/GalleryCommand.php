@@ -16,9 +16,7 @@ class GalleryCommand extends BaseCommand {
         $gateway = new GalleryGateway();
         $gallery = $gateway->find($gallery_id);
         if ($gallery) {
-            $this->smarty->assign("gallery", $gallery);
-            $this->smarty->assign("images", $images);
-            $this->smarty->display("gallery.tpl");
+            include_once $_SERVER['DOCUMENT_ROOT'] . "/mvc/views/gallery.php";
         } else {
             $this->error404();
         }
