@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Етюд",
+    "path": "etud/",
+    "smalldir": "small/",
+    "mediumdir": "medium/",
+    "bigdir": "big/"
+  },
+  {
+    "id": "2",
+    "name": "Копія",
+    "path": "copy/",
+    "smalldir": "small/",
+    "mediumdir": "medium/",
+    "bigdir": "big/"
+  },
+  {
+    "id": "3",
+    "name": "Морський пейзаж",
+    "path": "sea/",
+    "smalldir": "small/",
+    "mediumdir": "medium/",
+    "bigdir": "big/"
+  },
+  {
+    "id": "4",
+    "name": "Пейзаж",
+    "path": "nature/",
+    "smalldir": "small/",
+    "mediumdir": "medium/",
+    "bigdir": "big/"
+  },
+  {
+    "id": "5",
+    "name": "Портрет",
+    "path": "portrait/",
+    "smalldir": "small/",
+    "mediumdir": "medium/",
+    "bigdir": "big/"
+  }
+]

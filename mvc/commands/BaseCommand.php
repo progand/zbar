@@ -33,6 +33,7 @@ class BaseCommand implements FrontCommand {
     }
 
     protected function error404(){
+          http_response_code(404);
           $this->display("404");
     }
 

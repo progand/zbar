@@ -13,32 +13,27 @@
 require_once $_SERVER['DOCUMENT_ROOT'].'/mvc/models/Gateway.php';
 
 class GalleryGateway extends Gateway{
-    
+
     public function find($id){
-        $query_result = $this->query("select * from galleries where id={$id}");       
-        return $this->getSingle($query_result);
+        return $this->getByKey('id', $id, 'galleries');
     }
-    
+
     public function findByName($name){
         $n = trim($name);
-        $query_result = $this->query("select * from galleries where name='{$n}'");          
-        return $this->getSingle($query_result);
+        return $this->getByKey('name', $n, 'galleries');
     }
-    
+
     public function findBySEOName($seoname){
         $sn = trim($seoname);
-        $query_result = $this->query("select * from galleries where seoname='{$sn}'");       
-        return $this->getSingle($query_result);
+        return $this->getByKey('seoname', $sn, 'galleries');
     }
-    
+
     public function getIDs() {
-        $query_result = $this->query('select id from galleries');       
-        return $this->getVector($query_result);
+        return $this->getIDs('galleries');
     }
-    
+
     public function getAll() {
-        $query_result = $this->query('select * from galleries');       
-        return $this->getMatrix($query_result);
+        return $this->getCollection('galleries');
     }
 }
 

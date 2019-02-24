@@ -10,10 +10,11 @@
  *
  * @author user
  */
+require_once $_SERVER['DOCUMENT_ROOT'] . '/config/config.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/mvc/models/ImageGateway.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/mvc/models/GalleryGateway.php';
 
-class ImageModule {    
+class ImageModule {
 
     public function getImagesInGallery($gallery_id) {
         $galleryGateway = new GalleryGateway();
@@ -25,7 +26,6 @@ class ImageModule {
 
         $imageGateway = new ImageGateway();
         $result_array = $imageGateway->findByGallery($gallery_id);
-
         for ($index = 0; $index < count($result_array); $index++) {
             $image = $result_array[$index];
             $image['bigFile'] = $bpath . $image['filename'];
