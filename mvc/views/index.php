@@ -9,6 +9,7 @@
         <META NAME="keywords" HTTP-EQUIV="keywords"
               CONTENT="Збаранський Анатолій Іванович; замовити картину;купити картину;галерея художника;художник;картини;морський пейзаж;пейзаж;портрет;етюд;копія;">
 
+
         <?php include "commonHead.php";?>
     </head>
     <?php include "header.php";?>
@@ -21,4 +22,5 @@
         </div>
 
     <?php include "footer.php";?>
+
 </html>
