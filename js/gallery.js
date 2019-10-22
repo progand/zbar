@@ -6,7 +6,7 @@ jQuery(function(){
         imageBtnNext: '/images/lightbox-btn-next.png',
         imageBtnClose: '/images/lightbox-btn-close.png',
         containerResizeSpeed: 250, 
-        txtImage: 'Картина',
-        txtOf: 'з'
+        txtImage: 'РљР°СЂС‚РёРЅР°',
+        txtOf: 'Р·'
     });     
 }); 

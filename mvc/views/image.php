@@ -25,13 +25,12 @@
             </td>
             <td class="othergalleryimages">
                 <div>З галереї:</div>
-                <div class="othergalleryimages">
-
-                <?php foreach ($otherGalleryImages as $key => $otherimage) { ?>
-                <a href="/image/<?php echo $otherimage['id']; ?>.html" class="galleryimage" title="<?php echo $otherimage['name']; ?>">
-                    <div><img src="<?php echo $otherimage['smallFile']; ?>" alt=" <?php echo $otherimage['name']; ?>" class="smallimage"/>  </div>
-                </a>
-              <?php } ?>
+                <div class="othergalleryimages" style="position: relative; right: 16px;">
+                    <?php foreach ($otherGalleryImages as $key => $otherimage) { ?>
+                        <a href="/image/<?php echo $otherimage['id']; ?>.html" class="galleryimage" title="<?php echo $otherimage['name']; ?>">
+                            <div><img src="<?php echo $otherimage['smallFile']; ?>" alt=" <?php echo $otherimage['name']; ?>" class="smallimage"/>  </div>
+                        </a>
+                    <?php } ?>
                 </div>
             </td>
         </tr>
@@ -57,6 +56,7 @@
             </td>
         </tr>
 
+        <?php if ($image['year']) {?>
         <tr>
             <td class="title">
                 Рік:
@@ -65,7 +65,9 @@
                 <?php echo $image['year']; ?>
             </td>
         </tr>
+        <?php } ?>
 
+        <?php if ($image['width'] || $image['height']) {?>
         <tr>
             <td class="title">
                 Ширина/висота:
@@ -74,7 +76,9 @@
                 <?php echo $image['width']; ?> см / <?php echo $image['height']; ?> см
             </td>
         </tr>
+        <?php } ?>
 
+        <?php if ($image['description']) {?>
         <tr>
             <td class="title">
                 Опис:
@@ -83,10 +87,11 @@
                 <?php echo $image['description']; ?>
             </td>
         </tr>
+        <?php } ?>
 
     </table>
 <hr>
-<div class="comments">
+<div class="comments" style="padding: 0 16px;">
     <div id="disqus_thread"></div>
     <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
