@@ -1,6 +1,6 @@
 <!-- Common -->
 <meta http-equiv="content-type" content="text/html; charset=windows-1251">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=1024">
 <meta name="google-site-verification" content="g-biSIDUzDaDdZ0qHCySytmROlp2cNwvJT07-VQsk-4" />
 
 <link rel="shortcut icon" href="/images/shortcut.jpg"/>
