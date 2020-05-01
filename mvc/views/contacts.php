@@ -16,11 +16,14 @@
 <table align="center" class="info">
     <tr>
         <td class="title">Телефон</td>
-        <td>+380956280991; +380675999892</td>
+        <td>
+            <a href="tel:+380956280991">+380956280991</a>;
+            <a href="tel:+380675999892">+380675999892</a>
+        </td>
     </tr>
     <tr>
         <td class="title">E-mail</td>
-        <td>zbaranatol@gmail.com</td>
+        <td>anatol777v@gmail.com</td>
     </tr>
     <tr>
         <td class="title">Сайт</td>

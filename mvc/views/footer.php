@@ -2,7 +2,7 @@
 </tr>
 </table>
 <div id="footer_contacts">
-    Телефон: +380956280991; +380675999892. E-mail: zbaranatol@gmail.com
+    Телефон: +380956280991; +380675999892. E-mail: anatol777v@gmail.com
 </div>
 <div id="counters">
 
