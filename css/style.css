@@ -140,7 +140,7 @@ body{
     box-shadow: 0px 0px 15px 2px #8A3600,inset 0px 0px 10px 0px #8A3600;
     border-radius: 15px;
     margin: 0 auto;
-    padding-bottom: 10px;
+    /*padding-bottom: 10px;*/
     background-color: #FFD6A0;
     width: 980px;
     /*position: absolute;
@@ -169,20 +169,30 @@ table{
     width: 100%;
 }
 
+#footer{
+    background-color: #580400;
+    color: wheat;
+    border: 1px solid #8A3600 none;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
 #footer_contacts{
-    color: #580400;
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
     padding: 10px;
-    border-top: 1px solid #8A3600;
-    border-bottom: 1px solid #8A3600;
 
 }
 
-div#counters{
+#footer_links{
     text-align: center;
     padding: 10px;
+    background-color: #580400;
+}
+
+#footer_links a{
+    color: wheat;
+    margin: 0 .5em;
 }
 
 /*Gallery*/

@@ -1,22 +1,28 @@
 </td>
 </tr>
 </table>
-<div id="footer_contacts">
-    Телефон: +380956280991; +380675999892. E-mail: anatol777v@gmail.com
+<div id="footer">
+	<div id="footer_contacts">
+	    Телефон: +380956280991; +380675999892. E-mail: anatol777v@gmail.com
+	</div>
+	<div id="footer_links">
+		<a href="/abouts.html">Про художника</a>
+	    <a href="/reports.html">Відгуки</a>
+	    <a href="/contacts.html">Контакти</a>
+	    <a href="/articles.html">Статті</a>
+	    <a href="/video.html">Відео</a>
+	</div>
 </div>
-<div id="counters">
+</div>
 
-</div>
-</div>
-
-<div class="soc_buttons" id="soc_buttons" >
+<!-- <div class="soc_buttons" id="soc_buttons" >
     <a title="Відгуки" href="/reports.html"><img src="/images/reports_link.png" ></a>
     <a title="Контактна інформація" href="/contacts.html"><img src="/images/contacts_link.png" ></a>
     <a title=Статті" href="/articles.html"><img src="/images/articles_link.png" ></a>
     <a title="Відео" href="/video.html"><img src="/images/video_link.png" ></a>
     <a title="Вверх" href="#"><img src="/images/up_link.png" ></a>
     <a title="Сховати" href="#" id="close_soc_buttons"><img src="/images/close_link.png" ></a>
-</div>
+</div> -->
 
 <?php include "commonScripts.php"; ?>
 </body>

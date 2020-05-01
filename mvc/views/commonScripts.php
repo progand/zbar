@@ -6,7 +6,7 @@
 <script type="text/javascript" src="/js/funmenu.js"></script>
 
 <script type="text/javascript" src="/js/jquery.socializer.min.js"></script>
-<script type="text/javascript" src="/js/common.js"></script>
+<!-- <script type="text/javascript" src="/js/common.js"></script> -->
 
 <script type="text/javascript">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
