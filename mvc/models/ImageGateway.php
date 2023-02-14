@@ -38,12 +38,12 @@ class ImageGateway extends Gateway{
       return $images;
     }
 
-    public function getIDs() {
-        return $this->getIDs('images');
+    public function getIDs($type = 'images') {
+        return $this->getIDs($type);
     }
 
-    public function getAll() {
-        return $this->getCollection('images');
+    public function getAll($type = 'images') {
+        return $this->getCollection($type);
     }
 }
 

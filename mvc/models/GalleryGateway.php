@@ -28,12 +28,12 @@ class GalleryGateway extends Gateway{
         return $this->getByKey('seoname', $sn, 'galleries');
     }
 
-    public function getIDs() {
-        return $this->getIDs('galleries');
+    public function getIDs($type = 'galleries') {
+        return $this->getIDs($type);
     }
 
-    public function getAll() {
-        return $this->getCollection('galleries');
+    public function getAll($type = 'galleries') {
+        return $this->getCollection($type);
     }
 }
 
